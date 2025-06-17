@@ -1,20 +1,23 @@
-<html>
-<head>
-<title>DevOps</title>
-</head>
-<body>
-<p>DevOps External Viva</p>
-<p>Date: 17 June 2025</p>
-<p id="time"></p>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevOps</title>
+  </head>
 
-<script>
-function updateTime() {
-const now = new Date();
-const timeString = now.toLocaleTimeString();
-document.getElementById("time").textContent = timeString;
-}
-updateTime();
-setInterval(updateTime, 100);
-</script>
-</body>
+  <body>
+    <p>DevOps External Viva</p>
+    <p>Date: 17 June 2025</p>
+    <p id="time"></p>
+
+    <script>
+      function updateTime() {
+        const now = new Date();
+        const timeString = now.toLocaleTimeString();
+        document.getElementById("time").textContent = timeString;
+      }
+      updateTime();
+      setInterval(updateTime, 100);
+    </script>
+  </body>
 </html>
